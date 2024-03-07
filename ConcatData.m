@@ -1,8 +1,8 @@
 close all, clc
 % Ghép data lại thành 512x54144
 %% Tạo data
-datasetFolder = 'D:\HocTap\NCKH\EEGDenoise\EEGnetDATA';
-dataSaveFolder = 'D:\HocTap\NCKH\EEGDenoise\Code\Assigment\SavedData\';
+datasetFolder = '';
+
 savefile = 0;
 
 load(fullfile(datasetFolder,"EEG_all_epochs.mat")); % 4514 segments
